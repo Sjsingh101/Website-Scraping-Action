@@ -9,4 +9,4 @@ jobs:
              - uses: ./
                with:
                    MY_NAME: "TU PAC" 
-                   username: ${{ secrets.GITHUB_USER }}
+                   URL: ${{ secrets.URL }}
