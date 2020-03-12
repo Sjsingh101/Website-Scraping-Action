@@ -10,5 +10,6 @@ git init
 git add .
 git commit -m "Initial Commit"
 git remote add test https://github.com/$USER/Website.git
-git remote -v
+git config user.email "$EMAIL"
+git config user.name "$USER"
 git push test master
