@@ -9,4 +9,5 @@ jobs:
              - uses: ./
                with:
                    MY_NAME: "TU PAC" 
-                   URL: ${{ secrets.URL }}
+               env:
+                  URL: ${{ secrets.URL }}
