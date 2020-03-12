@@ -1,0 +1,11 @@
+name: A workflow
+on: push
+jobs:
+    build:
+        name: hello job here
+        runs-on: ubuntu-latest
+        steps:
+             - uses: actions/checkout@v1
+             - uses: ./
+               with:
+                   MY_NAME: "TU PAC" 
