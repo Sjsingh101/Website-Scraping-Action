@@ -13,3 +13,4 @@ git remote add test https://github.com/$USER/Website.git
 git config user.email "$EMAIL"
 git config user.name "$USER"
 git push test master
+
