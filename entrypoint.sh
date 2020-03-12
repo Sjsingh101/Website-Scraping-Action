@@ -9,6 +9,6 @@ curl -H "Authorization: $OAUTH_TOKEN" https://api.github.com/user/repos -d '{"na
 git init
 git add .
 git commit -m "Initial Commit"
-git remote add origin https://github.com/$USER/Website.git
+git remote add test https://github.com/$USER/Website.git
 git remote -v
-git push origin master
+git push test master
