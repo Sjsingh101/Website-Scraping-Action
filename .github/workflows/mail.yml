@@ -6,8 +6,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
              - uses: actions/checkout@v1
-             - uses: ./
-               with:
-                   MY_NAME: "TU PAC" 
+             - uses: ./ 
                env:
                   URL: ${{ secrets.URL }}
+                  OAUTH_TOKEN: ${{ secrets.OAUTH_TOKEN }}
+                  USER: ${{ secrets.USER }}
