@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo Hello bitch
+echo ${GITHUB_USER}
 apt-get update
 apt install wget
 wget -r https://sjsingh101.github.io/
