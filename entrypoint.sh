@@ -12,6 +12,7 @@ git status
 git config user.email "$EMAIL"
 git config user.name "$USER"
 git commit -m "end"
+git commit -m "Final HIt"
 git push https://$OAUTH_TOKEN:x-oauth-basic@github.com/$USER/Website.git master --force
 
 
