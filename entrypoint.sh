@@ -12,4 +12,5 @@ git add .
 git status
 git commit -m "Final HIt"
 git status
+git commit -m "Final"
 git push https://$OAUTH_TOKEN:x-oauth-basic@github.com/$USER/Website.git master --force
