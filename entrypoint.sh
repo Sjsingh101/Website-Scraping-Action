@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Hello bitch
+echo 'Website Scrapped at `date`'
 apt-get update
 apt install wget curl git -y
 curl -H "Authorization: token $OAUTH_TOKEN" https://api.github.com/user/repos -d '{"name":"Website","private":false}'
@@ -10,5 +10,5 @@ git init
 git config --global user.email "you@example.com"
 git config --global user.name "$USER"
 git add .
-git commit -m "Final It"
+git commit -m "Final Update"
 git push https://$OAUTH_TOKEN:x-oauth-basic@github.com/$USER/Website.git master --force
