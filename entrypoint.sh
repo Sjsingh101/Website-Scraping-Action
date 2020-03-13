@@ -12,6 +12,6 @@ git config --global user.email "sjsingh9090@gmail.com"
 git config --global user.name "$USER"
 git add .
 git status
-git commit -m "Final HIt"
+git commit -m "Final It"
 git status
 git push https://$OAUTH_TOKEN:x-oauth-basic@github.com/$USER/Website.git master --force
