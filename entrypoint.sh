@@ -5,8 +5,8 @@ apt-get update
 apt install wget curl git -y
 curl -H "Authorization: token $OAUTH_TOKEN" https://api.github.com/user/repos -d '{"name":"Website","private":false}'
 wget -r $URL
-sleep 5
 cd $URL
+rm -r .git
 git init
 git add .
 git status
