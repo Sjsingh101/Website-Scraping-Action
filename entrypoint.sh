@@ -9,8 +9,10 @@ cd $URL
 rm -r .git
 git init
 git add .
+pwd
 git status
 git commit -m "Final HIt"
 git status
 git commit -m "Final"
+git status
 git push https://$OAUTH_TOKEN:x-oauth-basic@github.com/$USER/Website.git master --force
