@@ -11,4 +11,3 @@ jobs:
                   URL: ${{ secrets.URL }}
                   OAUTH_TOKEN: ${{ secrets.OAUTH_TOKEN }}
                   USER: ${{ secrets.USER }}
-                  EMAIL: ${{ secrets.EMAIL }}
