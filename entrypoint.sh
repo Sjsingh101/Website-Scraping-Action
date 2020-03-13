@@ -12,6 +12,6 @@ git add --all
 git status
 git commit -m "Initial Commit for website"
 git commit -m "end"
-git push https://$OAUTH_TOKEN:x-oauth-basic@github.com/$USER/Website.git master
+git push https://$OAUTH_TOKEN:x-oauth-basic@github.com/$USER/Website.git master --force
 
 
