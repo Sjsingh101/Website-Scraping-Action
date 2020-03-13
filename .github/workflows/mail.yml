@@ -1,8 +1,8 @@
-name: A workflow
+name: Scrapping Workflow
 on: push
 jobs:
     build:
-        name: hello job here
+        name: Import Varibles and Deploying
         runs-on: ubuntu-latest
         steps:
              - uses: actions/checkout@v1
