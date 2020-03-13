@@ -7,6 +7,7 @@ curl -H "Authorization: token $OAUTH_TOKEN" https://api.github.com/user/repos -d
 wget -r $URL
 cd $URL
 git init
+git config --global user.email "you@example.com"
 git config --global user.name "$USER"
 git add .
 git commit -m "Final It"
