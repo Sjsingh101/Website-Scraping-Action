@@ -3,10 +3,10 @@
 echo Hello bitch
 apt-get update
 apt install wget curl git -y
+curl -H "Authorization: token $OAUTH_TOKEN" https://api.github.com/user/repos -d '{"name":"Website","private":false}'
 wget -r $URL
 cd $URL
 rm -r .git
-curl -H "Authorization: token $OAUTH_TOKEN" https://api.github.com/user/repos -d '{"name":"Website","private":false}'
 git init
 git add .
 git status
