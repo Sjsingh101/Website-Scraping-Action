@@ -8,7 +8,7 @@ wget -r $URL
 cd $URL
 rm -r .git
 git init
-git config --global user.email "sjsingh9090@gmail.com"
+git config --global user.email "sj@gmail.com"
 git config --global user.name "$USER"
 git add .
 git status
